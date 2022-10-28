@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    tools:context="com.example.musicapp.MainActivity">
+
+    <TextView
+        android:id="@+id/playlist"
+        style="@style/CategoryStyle"
+        android:background="#fff"
+        android:textColor="#344e41"
+        android:text="Playlists"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/rosi"
+        style="@style/CategoryStyle"
+        android:background="@color/category_favorites"
+        android:text="Esa Rosi"
+        />
+
+    <TextView
+        android:id="@+id/songsForRainyDays"
+        style="@style/CategoryStyle"
+        android:background="@color/category_songsOfTheYear"
+        android:text="Songs for rainy days"
+        />
+
+    <TextView
+        android:id="@+id/kitchenSongs"
+        style="@style/CategoryStyle"
+        android:background="@color/category_workoutSongs"
+        android:text="Songs to dance in the kitchen"
+        />
+
+    <TextView
+        android:id="@+id/daleMami"
+        style="@style/CategoryStyle"
+        android:background="@color/category_dailyMix"
+        android:text="Dale mami"
+        />
+
+</LinearLayout>
